@@ -85,3 +85,24 @@
 .productDetails{
     line-height: 20px;
 }
+.searchBarInput{
+    border: none;
+    outline: none;
+    width: 85%;
+    background-color: transparent;
+    font-size: 15px;
+    color: #808080;
+}
+.searchBar{
+    margin: 30px;
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px rgb(233, 233, 233);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px;
+    margin-left: auto;
+    color: #808080;
+}
