@@ -5,6 +5,53 @@
 }
 .productsCatalog{
     width: 100%;
-    height: 100vh;
-    padding: 50px;
+    padding: 30px;
+}
+.product{
+    line-height: 20px;
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+.productImage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.showDetailsBtn{
+    background-color: rgb(21, 155, 127);
+    width: 100%;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 35px;
+}
+.showDetailsBtn:hover{
+    background-color: rgb(26, 184, 149);
+    transition: 0.4s ease-in-out;
+}
+.productName{
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.productPrice{
+    color: rgb(21, 155, 127);
+    font-size: 20px;
+    font-weight: 600;
+}
+.productDescription{
+    white-space: nowrap;       /* Prevent text from wrapping */
+    overflow: hidden;          /* Hide overflowing content */
+    text-overflow: ellipsis;   /* Add dots ("...") for overflow */
+    color: rgb(160, 160, 160);
+    width: 100%;     
 }
