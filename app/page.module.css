@@ -32,16 +32,24 @@
     cursor: pointer;
     margin-top: 10px;
     height: 35px;
+    transform: scale(1);
+    transition: transform 0.4s; 
+}
+.showDetailsBtn:active{
+    transform: scale(0.9);
 }
 .showDetailsBtn:hover{
     background-color: rgb(26, 184, 149);
     transition: 0.4s ease-in-out;
 }
+.BuyNowBtn{
+    position: absolute;
+    bottom: 0;
+}
 .productName{
     color: rgb(54, 54, 54);
     font-size: 17px;
     font-weight: 600;
-    
 }
 .productPrice{
     color: rgb(21, 155, 127);
@@ -49,9 +57,31 @@
     font-weight: 600;
 }
 .productDescription{
-    white-space: nowrap;       /* Prevent text from wrapping */
-    overflow: hidden;          /* Hide overflowing content */
-    text-overflow: ellipsis;   /* Add dots ("...") for overflow */
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
     color: rgb(160, 160, 160);
     width: 100%;     
+}
+.breadcrumbHome{
+    text-decoration: none;
+    color: rgb(21, 155, 127);
+    font-weight: 600;
+}
+.breadcrumbHome:hover{
+    color: rgb(26, 184, 149);
+    transition: .3s ease-in-out;
+}
+.productDetailsContainer{
+    padding: 30px;
+}
+.reviewsCount{
+    color: #808080;
+}
+.category{
+    font-size: 18px;
+    color: #808080;
+}
+.productDetails{
+    line-height: 20px;
 }
